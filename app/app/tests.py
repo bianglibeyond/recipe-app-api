@@ -10,7 +10,7 @@ class CalcTests(SimpleTestCase):
     """Test the calc module"""
     def test_add_two_numbers(self):
         """Test add two numbers"""
-        result = calc.add(5,6)
+        result = calc.add(5, 6)
 
         self.assertEqual(result, 11)
 
